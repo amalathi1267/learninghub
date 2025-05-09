@@ -83,18 +83,78 @@ export default function Home() {
       </div>
     </div>
 
-    {/* Java Logo Link Below Search */}
-    <div className="mt-10 flex justify-center">
+    {/* Course Icons Grid */}
+    <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
       <Link href="/courses/java">
         <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
           <Image
             src="/courses-img/java.png"
             alt="Java Course"
-            width={100}
-            height={100}
+            width={80}
+            height={80}
             className="mb-2"
           />
-          <span className="text-lg font-medium text-gray-800">Java</span>
+          <span className="text-sm font-medium text-gray-800">Java</span>
+        </div>
+      </Link>
+      <Link href="/courses/android">
+        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
+          <Image
+            src="/courses-img/android.png"
+            alt="Android Course"
+            width={80}
+            height={80}
+            className="mb-2"
+          />
+          <span className="text-sm font-medium text-gray-800">Android</span>
+        </div>
+      </Link>
+      <Link href="/courses/hadoop">
+        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
+          <Image
+            src="/courses-img/hadoop.png"
+            alt="Hadoop Course"
+            width={80}
+            height={80}
+            className="mb-2"
+          />
+          <span className="text-sm font-medium text-gray-800">Big Data Hadoop</span>
+        </div>
+      </Link>
+      <Link href="/courses/dotnet">
+        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
+          <Image
+            src="/courses-img/dotnet.png"
+            alt=".NET Course"
+            width={80}
+            height={80}
+            className="mb-2"
+          />
+          <span className="text-sm font-medium text-gray-800">.NET</span>
+        </div>
+      </Link>
+      <Link href="/courses/mobile-testing">
+        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
+          <Image
+            src="/courses-img/web-designing.png"
+            alt="Mobile Testing Course"
+            width={80}
+            height={80}
+            className="mb-2"
+          />
+          <span className="text-sm font-medium text-gray-800">Mobile Testing</span>
+        </div>
+      </Link>
+      <Link href="/courses/php">
+        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
+          <Image
+            src="/courses-img/php.png"
+            alt="PHP Course"
+            width={80}
+            height={80}
+            className="mb-2"
+          />
+          <span className="text-sm font-medium text-gray-800">PHP</span>
         </div>
       </Link>
     </div>
