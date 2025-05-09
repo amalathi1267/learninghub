@@ -6,8 +6,8 @@ from pathlib import Path
 from difflib import unified_diff
 
 # --- CONFIGURATION ---
-ZIP_FILE_PATH = "C:\\Users\\malat\\Desktop\\project-bolt-sb1-x4srrmj7_scopy_2.zip"
-GIT_PROJECT_DIR = "C:\\Users\\malat\\Desktop\\learninghub_initial_code"
+ZIP_FILE_PATH = "C:\\Users\\RajaS\\backup_learninghub\\project-bolt-sb1-x4srrmj7_malathi_changes_v1.zip"
+GIT_PROJECT_DIR = "C:\\Users\\RajaS\\learninghub_1"
 TEMP_UNZIP_DIR = "tmp_unzipped"
 AUTO_COPY = True  # Set to True to overwrite changed files into Git project
 

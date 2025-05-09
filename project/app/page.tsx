@@ -10,6 +10,7 @@ import Navbar from "@/components/Navbar";
 import CourseCard from "@/components/CourseCard";
 import Footer from "@/components/Footer";
 import { courses } from "@/data/courses";
+import EnquiryForm from "@/components/InquiryCapsule";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -65,24 +66,42 @@ export default function Home() {
       </section>
       
       {/* Search Section */}
-      <section className="py-10 bg-white">
-        <div className="container px-4 mx-auto max-w-7xl">
-          <div className="flex justify-center">
-            <div className="relative w-full max-w-xl">
-              <Input
-                type="text"
-                placeholder="Search for courses..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 py-6 text-lg rounded-full border-gray-200 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
-              />
-              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                <Search className="h-5 w-5 text-gray-400" />
-              </div>
-            </div>
-          </div>
+<section className="py-10 bg-white">
+  <div className="container px-4 mx-auto max-w-7xl">
+    <div className="flex justify-center">
+      <div className="relative w-full max-w-xl">
+        <Input
+          type="text"
+          placeholder="Search for courses..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="pl-10 py-6 text-lg rounded-full border-gray-200 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
+        />
+        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+          <Search className="h-5 w-5 text-gray-400" />
         </div>
-      </section>
+      </div>
+    </div>
+
+    {/* Java Logo Link Below Search */}
+    <div className="mt-10 flex justify-center">
+      <Link href="/courses/java">
+        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
+          <Image
+            src="/courses-img/java.png"
+            alt="Java Course"
+            width={100}
+            height={100}
+            className="mb-2"
+          />
+          <span className="text-lg font-medium text-gray-800">Java</span>
+        </div>
+      </Link>
+    </div>
+  </div>
+</section>
+
+      
       
       {/* Featured Courses Section */}
       <section className="py-12 bg-white">
@@ -163,6 +182,21 @@ export default function Home() {
             >
               Get Started Today
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Enquiry Form Section */}
+      <section className="py-16 bg-white">
+        <div className="container px-4 mx-auto max-w-7xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Have Any Questions?</h2>
+            <p className="text-lg text-gray-700 mb-8">Fill out the form below and we will get back to you as soon as possible.</p>
+            <Link href="/Inquiry">
+              <Button className="bg-green-600 text-white hover:bg-green-700">
+                InquiryCapsule
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
