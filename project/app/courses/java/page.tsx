@@ -32,7 +32,7 @@ export default function JavaCourse() {
             <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-32 h-32 relative mb-3">
                 <Image
-                  src="/images/django-vs-flask.jpg"
+                  src="/images/java/java-se-8-developer-bootcamp.png"
                   alt="Java SE"
                   fill
                   className="object-contain"
@@ -52,7 +52,7 @@ export default function JavaCourse() {
             <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-32 h-32 relative mb-3">
                 <Image
-                  src="/images/machine-learn.png"
+                  src="/images/java/android-and-java-developer-course.png"
                   alt="Android & Java"
                   fill
                   className="object-contain"
@@ -72,7 +72,7 @@ export default function JavaCourse() {
             <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-32 h-32 relative mb-3">
                 <Image
-                  src="/images/data-analysis.png"
+                  src="/images/java/java-programming.png"
                   alt="Java Programming"
                   fill
                   className="object-contain"
@@ -92,7 +92,7 @@ export default function JavaCourse() {
             <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-32 h-32 relative mb-3">
                 <Image
-                  src="/images/selenium-with-python.png"
+                  src="/images/java/selenium-with-java-training.png"
                   alt="Selenium with Java"
                   fill
                   className="object-contain"

@@ -32,7 +32,7 @@ export default function DotNetCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[220px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/dotnet-developing-as-dotnet.jpeg"
+                  src="/images/dotnet/dotnet-developing-as-dotnet.jpeg"
                   alt="ASP.NET Core MVC"
                   fill
                   className="object-cover rounded-lg"
@@ -52,7 +52,7 @@ export default function DotNetCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[220px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/dotnet-web-service.jpeg"
+                  src="/images/dotnet/dotnet-web-service.jpeg"
                   alt=".NET Web Services"
                   fill
                   className="object-cover rounded-lg"
@@ -72,7 +72,7 @@ export default function DotNetCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[220px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/dotnet-visual-basic.jpeg"
+                  src="/images/dotnet/dotnet-visual-basic.jpeg"
                   alt="Visual Basic .NET"
                   fill
                   className="object-cover rounded-lg"
@@ -92,7 +92,7 @@ export default function DotNetCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[220px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/dotnet-design-patterns.jpg"
+                  src="/images/dotnet/dotnet-design-patterns.jpg"
                   alt=".NET Best Practices"
                   fill
                   className="object-cover rounded-lg"

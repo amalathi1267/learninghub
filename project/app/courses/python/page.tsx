@@ -23,7 +23,7 @@ export default function PythonCourse() {
               Call us for Chennai Center: <a href="tel:+919999999999" className="text-sky-500 hover:text-sky-600">+91 99999 99999</a> and Become a Python expert.
             </p>
             <p className="text-base text-gray-700 mb-4">
-              Greens Technologies was recently awarded as the best Python Training Institute in Chennai by CEO of top IT companies!
+              LearnHub was recently awarded as the best Python Training Institute in Chennai by CEO of top IT companies!
             </p>
             <Button className="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-lg">
               BOOK A FREE DEMO
@@ -35,7 +35,7 @@ export default function PythonCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/python-basics.jpg"
+                  src="/images/python/python-basics.jpg"
                   alt="Python Basics"
                   fill
                   className="object-cover rounded-lg"
@@ -55,7 +55,7 @@ export default function PythonCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/python-web-development.png"
+                  src="/images/python/python-web-development.png"
                   alt="Web Development"
                   fill
                   className="object-cover rounded-lg"
@@ -75,7 +75,7 @@ export default function PythonCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/python-machine-learning.png"
+                  src="/images/python/python-machine-learning.png"
                   alt="Data Science"
                   fill
                   className="object-cover rounded-lg"
@@ -95,7 +95,7 @@ export default function PythonCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/python-automation-testing.png"
+                  src="/images/python/python-automation-testing.png"
                   alt="Automation Testing"
                   fill
                   className="object-cover rounded-lg"

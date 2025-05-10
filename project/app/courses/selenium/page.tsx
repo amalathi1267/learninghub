@@ -23,7 +23,7 @@ export default function SeleniumCourse() {
               Call us for Chennai Center: <a href="tel:+919999999999" className="text-sky-500 hover:text-sky-600">+91 99999 99999</a> and Become a Selenium expert.
             </p>
             <p className="text-base text-gray-700 mb-4">
-              Greens Technologies was recently awarded as the best Selenium Training Institute in Chennai by CEO of top IT companies!
+              LearnHub was recently awarded as the best Selenium Training Institute in Chennai by CEO of top IT companies!
             </p>
             <Button className="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-lg">
               BOOK A FREE DEMO
@@ -35,7 +35,7 @@ export default function SeleniumCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/selenium-core-java.jfif"
+                  src="/images/selenium/selenium-core-java.jfif"
                   alt="Core Java"
                   fill
                   className="object-cover rounded-lg"
@@ -55,7 +55,7 @@ export default function SeleniumCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/selenium-manual-testing.png"
+                  src="/images/selenium/selenium-manual-testing.png"
                   alt="Manual Testing"
                   fill
                   className="object-cover rounded-lg"
@@ -75,7 +75,7 @@ export default function SeleniumCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/selenium-automation-testing.jpg"
+                  src="/images/selenium/selenium-automation-testing.jpg"
                   alt="Automation Testing"
                   fill
                   className="object-cover rounded-lg"
@@ -95,7 +95,7 @@ export default function SeleniumCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/selenium-database.jpg"
+                  src="/images/selenium/selenium-database.jpg"
                   alt="Database"
                   fill
                   className="object-cover rounded-lg bg-white"

@@ -23,7 +23,7 @@ export default function CloudComputingCourse() {
               Call us for Chennai Center: <a href="tel:+919999999999" className="text-sky-500 hover:text-sky-600">+91 99999 99999</a> and Become a Cloud Computing expert.
             </p>
             <p className="text-base text-gray-700 mb-4">
-              Greens Technologies was recently awarded as the best Cloud Computing Training Institute in Chennai by CEO of top IT companies!
+              LearnHub was recently awarded as the best Cloud Computing Training Institute in Chennai by CEO of top IT companies!
             </p>
             <Button className="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-lg">
               BOOK A FREE DEMO
@@ -35,7 +35,7 @@ export default function CloudComputingCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/cloud-computing-aws.jpg"
+                  src="/images/cloud-computing/cloud-computing-aws.jpg"
                   alt="AWS Cloud"
                   fill
                   className="object-cover rounded-lg"
@@ -55,7 +55,7 @@ export default function CloudComputingCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/cloud-computing-azure.jpg"
+                  src="/images/cloud-computing/cloud-computing-azure.jpg"
                   alt="Azure Cloud"
                   fill
                   className="object-cover rounded-lg"
@@ -75,7 +75,7 @@ export default function CloudComputingCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/cloud-computing-google.jpg"
+                  src="/images/cloud-computing/cloud-computing-google.jpg"
                   alt="Google Cloud"
                   fill
                   className="object-cover rounded-lg"
@@ -95,7 +95,7 @@ export default function CloudComputingCourse() {
             <div className="bg-white rounded-lg p-4 flex flex-col items-center text-center">
               <div className="w-[255px] h-[150px] relative mb-5">
                 <Image
-                  src="/images/cloud-computing-devops.jpg"
+                  src="/images/cloud-computing/cloud-computing-devops.jpg"
                   alt="DevOps"
                   fill
                   className="object-cover rounded-lg"
