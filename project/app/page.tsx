@@ -66,102 +66,24 @@ export default function Home() {
       </section>
       
       {/* Search Section */}
-<section className="py-10 bg-white">
-  <div className="container px-4 mx-auto max-w-7xl">
-    <div className="flex justify-center">
-      <div className="relative w-full max-w-xl">
-        <Input
-          type="text"
-          placeholder="Search for courses..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className="pl-10 py-6 text-lg rounded-full border-gray-200 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
-        />
-        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-          <Search className="h-5 w-5 text-gray-400" />
+      <section className="py-10 bg-white">
+        <div className="container px-4 mx-auto max-w-7xl">
+          <div className="flex justify-center">
+            <div className="relative w-full max-w-xl">
+              <Input
+                type="text"
+                placeholder="Search for courses..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-10 py-6 text-lg rounded-full border-gray-200 shadow-sm focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
+              />
+              <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <Search className="h-5 w-5 text-gray-400" />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-
-    {/* Course Icons Grid */}
-    <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-      <Link href="/courses/java">
-        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
-          <Image
-            src="/courses-img/java.png"
-            alt="Java Course"
-            width={80}
-            height={80}
-            className="mb-2"
-          />
-          <span className="text-sm font-medium text-gray-800">Java</span>
-        </div>
-      </Link>
-      <Link href="/courses/android">
-        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
-          <Image
-            src="/courses-img/android.png"
-            alt="Android Course"
-            width={80}
-            height={80}
-            className="mb-2"
-          />
-          <span className="text-sm font-medium text-gray-800">Android</span>
-        </div>
-      </Link>
-      <Link href="/courses/hadoop">
-        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
-          <Image
-            src="/courses-img/hadoop.png"
-            alt="Hadoop Course"
-            width={80}
-            height={80}
-            className="mb-2"
-          />
-          <span className="text-sm font-medium text-gray-800">Big Data Hadoop</span>
-        </div>
-      </Link>
-      <Link href="/courses/dotnet">
-        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
-          <Image
-            src="/courses-img/dotnet.png"
-            alt=".NET Course"
-            width={80}
-            height={80}
-            className="mb-2"
-          />
-          <span className="text-sm font-medium text-gray-800">.NET</span>
-        </div>
-      </Link>
-      <Link href="/courses/mobile-testing">
-        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
-          <Image
-            src="/courses-img/web-designing.png"
-            alt="Mobile Testing Course"
-            width={80}
-            height={80}
-            className="mb-2"
-          />
-          <span className="text-sm font-medium text-gray-800">Mobile Testing</span>
-        </div>
-      </Link>
-      <Link href="/courses/php">
-        <div className="flex flex-col items-center hover:scale-105 transition-transform cursor-pointer">
-          <Image
-            src="/courses-img/php.png"
-            alt="PHP Course"
-            width={80}
-            height={80}
-            className="mb-2"
-          />
-          <span className="text-sm font-medium text-gray-800">PHP</span>
-        </div>
-      </Link>
-    </div>
-  </div>
-</section>
-
-      
+      </section>
       
       {/* Featured Courses Section */}
       <section className="py-12 bg-white">
